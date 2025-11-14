@@ -20,6 +20,7 @@ table {
     box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
 }
 
+/* Header Row */
 th {
     background-color: #0A66C2;
     color: white;
@@ -27,19 +28,17 @@ th {
     font-size: 18px;
 }
 
-/* שורות רגילות */
+/* Regular Table Cells */
 td {
     padding: 20px;
     border: 1px solid lightgray;
     font-size: 16px;
-    transition: background-color 0.2s ease;
-    font-weight: 500;  /* כדי שלא יקפוץ כשעובר להובר */
+    transition: background-color 0.2s ease, color 0.2s ease;
+    font-weight: 600; /* 👈 שומר על משקל קבוע כדי שלא תקפוץ */
 }
 
-/* הובר שלא מזיז את הטבלה */
-.highlight:hover td {
+tr.highlight:hover td {
     background-color: #d0e7ff;
     color: #003B7A;
-    font-weight: bold; 
-
+    font-weight: 700; /* 👈 עכשיו נהיה BOLD */
 }
