@@ -1,43 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+/* עיצוב הטבלה (כללי) */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
     text-align: center;
 }
 
-/* TITLE */
-h1 {
-    margin-top: 30px;
+/* רווח אחיד לכל התאים */
+td, th {
+    padding: 18px;
+    border: 1px solid #ddd;
+    transition: 0.3s ease;
+}
+
+/* צבע רקע בהובר בלי לשנות גודל */
+tr:hover td {
+    background-color: #cfe7ff;
     font-weight: bold;
-    color: #0A66C2;
-}
-
-/* TABLE */
-table {
-    margin: 30px auto;
-    width: 90%;
-    border-collapse: collapse;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
-}
-
-th {
-    background-color: #0A66C2;
-    color: white;
-    padding: 15px;
-    font-size: 18px;
-}
-
-/* שורות רגילות */
-td {
-    padding: 20px;
-    border: 1px solid lightgray;
-    font-size: 16px;
-    transition: background-color 0.2s ease;
-    font-weight: 500;  /* כדי שלא יקפוץ כשעובר להובר */
-}
-
-/* הובר שלא מזיז את הטבלה */
-.highlight:hover td {
-    background-color: #d0e7ff;
-    color: #003B7A;
+    color: #004080;
 }
