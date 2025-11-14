@@ -11,7 +11,6 @@ h1 {
     color: #0A66C2;
 }
 
-/* TABLE */
 table {
     margin: 30px auto;
     width: 90%;
@@ -20,7 +19,6 @@ table {
     box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
 }
 
-/* Header Row */
 th {
     background-color: #0A66C2;
     color: white;
@@ -28,17 +26,17 @@ th {
     font-size: 18px;
 }
 
-/* Regular Table Cells */
+/* שורות רגילות */
 td {
     padding: 20px;
     border: 1px solid lightgray;
     font-size: 16px;
-    transition: background-color 0.2s ease, color 0.2s ease;
-    font-weight: 600; /* 👈 שומר על משקל קבוע כדי שלא תקפוץ */
+    font-weight: normal; 
+    transition: all 0.25s ease-in-out;
 }
 
-tr.highlight:hover td {
+.highlight:hover td {
     background-color: #d0e7ff;
     color: #003B7A;
-    font-weight: 700; /* 👈 עכשיו נהיה BOLD */
+    font-weight: bold;
 }
