@@ -1,43 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    text-align: center;
-}
-
-/* כותרת */
-h1 {
-    margin-top: 30px;
-    font-weight: bold;
-    color: #0A66C2;
-}
-
-/* טבלה */
-table {
-    margin: 30px auto;
-    width: 90%;
-    border-collapse: collapse;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
-}
-
-th {
-    background-color: #0A66C2;
-    color: white;
-    padding: 15px;
-    font-size: 18px;
-}
-
-/* שורות רגילות */
+/* בסיס ברירת מחדל לכל התאים */
 td {
     padding: 20px;
     border: 1px solid lightgray;
     font-size: 16px;
-    font-weight: 700;   /* הכי חשוב ↓↓ */
-    transition: background-color 0.2s, color 0.2s;
+    color: black;
+    font-weight: 400; /* כדי שלא יתחיל BOLD מראש */
+    transition: background-color 0.2s ease, color 0.2s ease, font-weight 0.2s ease;
 }
 
-/* ה־hover שלא מזיז */
-tr.highlight:hover td {
+/* אפקט ה-Hover רק כשהעכבר מעל השורה */
+.highlight:hover td {
     background-color: #d0e7ff;
-    color: #003B7A;
+    color: #003B7A; /* כחול כהה */
+    font-weight: 600; /* בולט — אבל לא קופץ */
 }
