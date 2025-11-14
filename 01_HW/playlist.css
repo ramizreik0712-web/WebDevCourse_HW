@@ -40,4 +40,6 @@ td {
 .highlight:hover td {
     background-color: #d0e7ff;
     color: #003B7A;
+    font-weight: bold; 
+
 }
