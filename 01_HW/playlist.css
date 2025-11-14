@@ -1,31 +1,42 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #eeeeee;
+    background-color: #f3f7ff;
     text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+/* סעיף 14 - CLASS */
+.specialRow {
+    background-color: #cce4ff;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 18px;
 }
 
 table {
     width: 90%;
-    margin: 30px auto;
+    margin: 20px auto;
     border-collapse: collapse;
     background: white;
 }
 
-th, td {
-    padding: 15px;
-    border: 1px solid #ccc;
+th {
+    background-color: #005bbb;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
+
+td {
+    padding: 18px;
+    border: 1px solid #cfcfcf;
     font-size: 16px;
 }
 
-th {
-    background: #0A66C2;
-    color: white;
-}
-
-/* 👇 סעיף 14 – ה-CLASS המבוקש */
-
-.blueTheme {
-    background-color: #cce5ff;
-    color: darkblue;
-    font-weight: bold;
+iframe {
+    border-radius: 5px;
+    margin-top: 5px;
 }
