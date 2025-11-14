@@ -5,15 +5,9 @@ body {
 }
 
 h1 {
-    background-color: #0A66C2;
-    color: white;
-    padding: 15px;
-    margin: 0;
-    width: 90%;
-    margin: 30px auto 10px auto;
-    border-radius: 6px;
-}
-
+    margin-top: 30px;
+    font-weight: bold;
+    color: #0A66C2;
 }
 
 /* TABLE */
