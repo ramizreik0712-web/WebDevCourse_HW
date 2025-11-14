@@ -1,42 +1,42 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3f7ff;
+    background-color: #f5f5f5;
     text-align: center;
 }
 
-h1 {
-    margin-top: 30px;
-}
-
-/* סעיף 14 - CLASS */
-.specialRow {
-    background-color: #cce4ff;
-    font-weight: bold;
-    color: darkblue;
-    font-size: 18px;
-}
-
+/* טבלה רגילה */
 table {
+    margin: 30px auto;
     width: 90%;
-    margin: 20px auto;
     border-collapse: collapse;
-    background: white;
+    background-color: white;
 }
 
+/* כותרות */
 th {
-    background-color: #005bbb;
+    background-color: #0A66C2;
     color: white;
     padding: 12px;
     font-size: 18px;
 }
 
+/* עיצוב תאים */
 td {
-    padding: 18px;
-    border: 1px solid #cfcfcf;
+    padding: 20px;
+    border: 1px solid lightgray;
     font-size: 16px;
 }
 
+/* הטופס של iframe */
 iframe {
-    border-radius: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+/* ✨ ה-CLASS החדש לפי סעיף 14 */
+.highlightRow {
+    background-color: #d9eaff !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #003d99 !important;
 }
