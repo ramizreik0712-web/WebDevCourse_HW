@@ -1,44 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #eeeeee;
     text-align: center;
 }
 
-/* TITLE */
-h1 {
-    margin-top: 30px;
-}
-
-/* TABLE */
 table {
-    margin: 30px auto;
     width: 90%;
+    margin: 30px auto;
     border-collapse: collapse;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background: white;
 }
 
-th {
-    background-color: #0A66C2;
-    color: white;
+th, td {
     padding: 15px;
-    font-size: 18px;
-}
-
-td {
-    padding: 20px;
-    border: 1px solid lightgray;
+    border: 1px solid #ccc;
     font-size: 16px;
 }
 
-/* 🔹 סעיף 14 – סימון שורה בעת מעבר */
-.highlight:hover {
-    background-color: #d0e7ff;
-    font-weight: bold;
-    color: darkblue;
+th {
+    background: #0A66C2;
+    color: white;
 }
 
-/* CLASS משותף לכותרת ולטבלה */
+/* 👇 סעיף 14 – ה-CLASS המבוקש */
+
 .blueTheme {
-    color: #0A66C2;
+    background-color: #cce5ff;
+    color: darkblue;
+    font-weight: bold;
 }
