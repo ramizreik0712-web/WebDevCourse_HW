@@ -4,53 +4,34 @@ body {
     text-align: center;
 }
 
-.blueTheme {
-    background-color: #0A66C2;
-    color: white;
-}
-
-/* --- HEADER --- */
-h1 {
-    padding: 20px;
-    border-radius: 5px;
-}
-
 table {
-    width: 90%;
     margin: 30px auto;
+    width: 90%;
     border-collapse: collapse;
-    border-radius: 6px;
+    background-color: white;
 }
 
 th {
-    padding: 14px;
+    background-color: #0A66C2;
+    color: white;
+    padding: 12px;
     font-size: 18px;
-    border: 1px solid white;
 }
 
 td {
-    background-color: white;
-    color: #000; 
     padding: 20px;
     border: 1px solid lightgray;
+    font-size: 16px;
 }
 
 iframe {
-    margin-top: 10px;
     border-radius: 6px;
 }
 
-.highlightRow {
-    background-color: #cce6ff; 
-    font-size: 18px;
+.blueTheme {
+    background-color: #0A66C2;
+    color: white;
     font-weight: bold;
-    color: #003366; 
-    
-
+    font-size: 20px;
+    padding: 10px;
 }
-.highlightRow {
-    background-color: #1a6bd8; 
-    color: white;              
-    font-weight: bold;         
-}
-
