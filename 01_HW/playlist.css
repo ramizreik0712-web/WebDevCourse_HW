@@ -1,36 +1,38 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     text-align: center;
 }
 
-h1 {
-    margin-top: 30px;
-    font-size: 30px;
-}
-
-/* טבלה */
+/* העיצוב הרגיל */
 table {
-    width: 90%;
     margin: 30px auto;
+    width: 90%;
     border-collapse: collapse;
     background-color: white;
 }
 
-th, td {
-    border: 1px solid lightgray;
+th {
+    background-color: #0A66C2;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
+
+td {
     padding: 20px;
+    border: 1px solid lightgray;
+    font-size: 16px;
 }
 
-/* הסגנון של המשימה ⚡ */
-.blueTheme {
-    background-color: #0A66C2 !important;
-    color: white !important;
-}
-
-/* ווידיאו מיושר למרכז */
-td iframe {
-    display: block;
-    margin: 0 auto;
+iframe {
+    margin-top: 10px;
     border-radius: 6px;
+}
+
+
+/* -------- סעיף 13 -------- */
+.blueTheme {
+    background-color: #0A66C2;
+    color: white;
 }
