@@ -11,6 +11,7 @@ h1 {
     color: #0A66C2;
 }
 
+/* TABLE */
 table {
     margin: 30px auto;
     width: 90%;
@@ -31,12 +32,14 @@ td {
     padding: 20px;
     border: 1px solid lightgray;
     font-size: 16px;
-    font-weight: normal; 
-    transition: all 0.25s ease-in-out;
+    color: black;
+    font-weight: 600; /* קבוע כדי שלא יקפוץ */
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
+/* הובר ללא קפיצה */
 .highlight:hover td {
     background-color: #d0e7ff;
     color: #003B7A;
-    font-weight: bold;
+    /* לא משנים font-weight כדי למנוע קפיצה */
 }
