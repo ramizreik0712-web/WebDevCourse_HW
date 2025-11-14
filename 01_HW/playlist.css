@@ -1,43 +1,46 @@
 body {
-    background-color: #f5f5f5;
     font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
     text-align: center;
 }
 
 h1 {
-    color: #333;
     margin-top: 30px;
 }
 
-table {
-    margin: 40px auto;
-    border-collapse: collapse;
-    width: 90%;
-    background-color: white;
-    box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+/*=============== CLASS שהתרגיל ביקש ===============*/
+.blueTheme {
+    background-color: #0A66C2;
+    color: white;
 }
 
-th, td {
-    padding: 14px;
-    border: 1px solid #ddd;
+/*================ עיצוב כללי של הטבלה =================*/
+table {
+    margin: 30px auto;
+    width: 90%;
+    border-collapse: collapse;
+    background-color: white;
 }
 
 th {
-    background-color: #0077ff;
+    background-color: #0A66C2;
     color: white;
+    padding: 12px;
     font-size: 18px;
 }
 
-td img {
+td {
+    padding: 20px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+}
+
+iframe {
+    margin-top: 10px;
     border-radius: 6px;
-    transition: 0.3s;
 }
 
-td img:hover {
-    transform: scale(1.1);
-}
-
-.blueTitle {
-    background-color: #0077ff;
+/* כותרת מקבלת את הצבע מהCLASS */
+.blueTheme h1, .blueTheme th {
     color: white;
 }
