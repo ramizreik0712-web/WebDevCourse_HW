@@ -4,20 +4,16 @@ body {
     text-align: center;
 }
 
+/* הכותרת */
 h1 {
     margin-top: 30px;
+    font-size: 30px;
 }
 
-/*=============== CLASS שהתרגיל ביקש ===============*/
-.blueTheme {
-    background-color: #0A66C2;
-    color: white;
-}
-
-/*================ עיצוב כללי של הטבלה =================*/
+/* טבלה */
 table {
-    margin: 30px auto;
     width: 90%;
+    margin: 30px auto;
     border-collapse: collapse;
     background-color: white;
 }
@@ -30,17 +26,17 @@ th {
 }
 
 td {
+    border: 1px solid #e5e5e5;
     padding: 20px;
-    border: 1px solid lightgray;
-    font-size: 16px;
 }
 
+/* עיצוב iframe */
 iframe {
-    margin-top: 10px;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
-/* כותרת מקבלת את הצבע מהCLASS */
-.blueTheme h1, .blueTheme th {
+/* 🎨 CLASS מיוחד לסעיף 13 */
+.blueTheme {
+    background-color: #0A66C2;
     color: white;
 }
