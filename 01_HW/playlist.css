@@ -32,14 +32,12 @@ td {
     padding: 20px;
     border: 1px solid lightgray;
     font-size: 16px;
-    color: black;
-    font-weight: 600; /* קבוע כדי שלא יקפוץ */
-    transition: background-color 0.2s ease, color 0.2s ease;
+    transition: all 0.2s ease; /* מעבר חלק */
+    font-weight: 500;  /* כמו bold אבל לא מזיז */
 }
 
-/* הובר ללא קפיצה */
 .highlight:hover td {
     background-color: #d0e7ff;
-    color: #003B7A;
-    /* לא משנים font-weight כדי למנוע קפיצה */
+    color: #002d62;  /* כחול כהה */
+    font-weight: 600; /* קצת יותר כבד — אבל לא קופץ */
 }
