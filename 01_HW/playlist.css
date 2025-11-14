@@ -1,42 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f0f8ff;
     text-align: center;
 }
 
-/* טבלה רגילה */
 table {
-    margin: 30px auto;
     width: 90%;
+    margin: 20px auto;
     border-collapse: collapse;
-    background-color: white;
+    background: white;
 }
 
-/* כותרות */
 th {
-    background-color: #0A66C2;
+    background: #0A66C2;
     color: white;
     padding: 12px;
     font-size: 18px;
 }
 
-/* עיצוב תאים */
 td {
-    padding: 20px;
+    padding: 18px;
     border: 1px solid lightgray;
-    font-size: 16px;
 }
 
-/* הטופס של iframe */
-iframe {
-    margin-top: 10px;
-    border-radius: 6px;
-}
-
-/* ✨ ה-CLASS החדש לפי סעיף 14 */
-.highlightRow {
-    background-color: #d9eaff !important;
-    font-size: 18px !important;
-    font-weight: bold !important;
-    color: #003d99 !important;
+/* 🔹 השורה המודגשת מהתרגיל */
+.blueRow {
+    background-color: #d6eaff;
+    color: #003366;
+    font-weight: bold;
 }
