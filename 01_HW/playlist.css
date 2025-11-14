@@ -36,8 +36,8 @@ td {
     transition: background-color 0.2s, color 0.2s;
 }
 
-/* ה־hover שלא מזיז */
 tr.highlight:hover td {
     background-color: #d0e7ff;
     color: #003B7A;
+    font-weight: bold;
 }
