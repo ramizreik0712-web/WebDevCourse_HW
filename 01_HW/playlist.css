@@ -1,41 +1,44 @@
-/* BASIC PAGE STYLE */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f6ff;
-  text-align: center;
-  margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
 }
 
-/* TABLE BASE STYLE */
+/* TITLE */
+h1 {
+    margin-top: 30px;
+}
+
+/* TABLE */
 table {
-  margin: 30px auto;
-  width: 90%;
-  border-collapse: collapse;
-  background-color: white;
+    margin: 30px auto;
+    width: 90%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
-th, td {
-  padding: 20px;
-  border: 1px solid #bcd4ff;
-  font-size: 16px;
-}
-
-/* HEADERS */
 th {
-  background-color: #0073e6;
-  color: white;
+    background-color: #0A66C2;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
 }
 
-/* IFRAMES */
-iframe {
-  border: none;
-  border-radius: 6px;
+td {
+    padding: 20px;
+    border: 1px solid lightgray;
+    font-size: 16px;
 }
 
-/* 🔹 NEW CLASS FROM EXERCISE (#14) */
+/* 🔹 סעיף 14 – סימון שורה בעת מעבר */
+.highlight:hover {
+    background-color: #d0e7ff;
+    font-weight: bold;
+    color: darkblue;
+}
+
+/* CLASS משותף לכותרת ולטבלה */
 .blueTheme {
-  background-color: #cfe4ff;
-  color: #003366;
-  font-weight: bold;
-  font-size: 18px;
+    color: #0A66C2;
 }
