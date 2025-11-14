@@ -1,21 +1,31 @@
-/* עיצוב הטבלה (כללי) */
-table {
-    width: 90%;
-    margin: 20px auto;
-    border-collapse: collapse;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
     text-align: center;
 }
 
-/* רווח אחיד לכל התאים */
-td, th {
-    padding: 18px;
-    border: 1px solid #ddd;
-    transition: 0.3s ease;
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
 }
 
-/* צבע רקע בהובר בלי לשנות גודל */
-tr:hover td {
-    background-color: #cfe7ff;
+th, td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+th {
+    background: #0A66C2;
+    color: white;
+}
+
+/* 👇 סעיף 14 – ה-CLASS המבוקש */
+
+.blueTheme {
+    background-color: #cce5ff;
+    color: darkblue;
     font-weight: bold;
-    color: #004080;
 }
