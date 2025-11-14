@@ -4,35 +4,38 @@ body {
     text-align: center;
 }
 
-/* העיצוב הרגיל */
+.blueTheme {
+    background-color: #0A66C2;
+    color: white;
+}
+
+/* --- HEADER --- */
+h1 {
+    padding: 20px;
+    border-radius: 5px;
+}
+
 table {
-    margin: 30px auto;
     width: 90%;
+    margin: 30px auto;
     border-collapse: collapse;
-    background-color: white;
+    border-radius: 6px;
 }
 
 th {
-    background-color: #0A66C2;
-    color: white;
-    padding: 12px;
+    padding: 14px;
     font-size: 18px;
+    border: 1px solid white;
 }
 
 td {
+    background-color: white;
+    color: #000; 
     padding: 20px;
     border: 1px solid lightgray;
-    font-size: 16px;
 }
 
 iframe {
     margin-top: 10px;
     border-radius: 6px;
-}
-
-
-/* -------- סעיף 13 -------- */
-.blueTheme {
-    background-color: #0A66C2;
-    color: white;
 }
