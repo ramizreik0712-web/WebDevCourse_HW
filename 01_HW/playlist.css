@@ -39,3 +39,18 @@ iframe {
     margin-top: 10px;
     border-radius: 6px;
 }
+
+.highlightRow {
+    background-color: #cce6ff; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #003366; 
+    
+
+}
+.highlightRow {
+    background-color: #1a6bd8; 
+    color: white;              
+    font-weight: bold;         
+}
+
