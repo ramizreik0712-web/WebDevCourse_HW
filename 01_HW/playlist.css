@@ -20,16 +20,6 @@ table {
     box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
 }
 
-/* HEADER TITLE CELL */
-th[colspan="3"] {
-    background-color: #004c97;
-    font-size: 22px;
-    padding: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-/* OTHER HEADERS */
 th {
     background-color: #0A66C2;
     color: white;
@@ -37,23 +27,18 @@ th {
     font-size: 18px;
 }
 
-/* NORMAL ROW STYLE */
-tr {
-    transition: 0.2s ease;
-}
-
-/* NORMAL TEXT (no bold by default) */
 td {
     padding: 20px;
     border: 1px solid lightgray;
     font-size: 16px;
-    font-weight: normal; /* 👈 prevents shifting */
-    color: black;
+    transition: 0.25s ease; 
+    font-weight: 600;        /* <<< משאיר מקום כדי שלא יקפוץ */
+    color: black;            /* צבע רגיל */
 }
 
-/* 🚀 HOVER EFFECT — ONLY WHEN MOUSE OVER */
-tr:hover td {
+/* הובר שלא מזיז */
+.highlight:hover td {
     background-color: #d0e7ff;
-    color: #003B7A;
-    font-weight: bold; /* 👈 Now bold ONLY on hover */
+    color: #003B7A;          /* כחול כהה */
+    font-weight: 800;        /* רק בהובר נהיה really bold */
 }
